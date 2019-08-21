@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+let arr = [];
+for (var i = 0 ; i < 100 ; i++) {
+    arr[i] = i;
+}
+let answer = arr[Math.floor(Math.random()*arr.length)];
+while(i != -1) {
+    let guess = parseInt(prompt("Insert a Number"));
+    if (guess > answer) {
+        alert("Too High");
+    }
+    if (guess < answer) {
+        alert("Too Low");
+    }
+    if (guess == answer) {
+        alert("Correct")
+        break;
+    }
+}
+</script>
+</body>
+</html>
