@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let number = prompt("Insert a phone number");
+    let regexp = /^[0]([9][6-8]|[3][2-8])[0-9]{7}$/;
+    if(regexp.test(number)) {
+        alert("The phone number Viettel");
+    } else {
+        alert("This number is not Viettel");
+    }
+</script>
+</body>
+</html>
